@@ -27,7 +27,7 @@ The *C-Product Toolbox* is specifically built around the reduced *c*-product, wh
 
 The primary motivation behind this toolbox is to address the limitations of existing tensor computation frameworks. The *C-Product Toolbox* introduces optimized algorithms that significantly reduce computational costs while providing cross-platform compatibility.
 
-## Scientific paper related with the *C-Product Toolbox*
+### Scientific paper related with the *C-Product Toolbox*
 
 The *C-Product Toolbox* is associated with the scientific article "***C-Product Toolbox*: A New MATLAB and Python Package for Third-Order Tensor Operations Using the Reduced C-Product**." This scientific paper has been submitted for review in a scientific journal and is currently under peer review. The numerical experiments included in this repository are explained in detail in the paper.
 
