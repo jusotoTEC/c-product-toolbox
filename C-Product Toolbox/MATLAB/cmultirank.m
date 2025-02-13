@@ -1,6 +1,6 @@
 function mrank=cmultirank(A)
 
-    %       Description: Computes the multi rank of a tensor 
+    %       Description: Computes the multi-rank of a tensor 
     %                    under the reduced c-product
     % Sintaxis Function: mrank = cmultirank(A)
     %            Inputs:   A   = tensor of dimension  m x n x p
