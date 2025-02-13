@@ -19,9 +19,14 @@ The *C-Product Toolbox* is specifically built around the reduced *c*-product, wh
 * **Multi-Platform Support**: While initially developed for MATLAB, the *C-Product Toolbox* has also been fully implemented in Python, utilizing the *NumPy* and *SciPy* libraries, ensuring broader accessibility.
 * **Applications in Image and Signal Processing**: The toolbox has been tested in various applications, including video denoising, showcasing its practical advantages over traditional tensor computation methods.
 
-### Why Use the C-Product Toolbox?
+### Why Use the *C-Product Toolbox*?
 
 The primary motivation behind this toolbox is to address the limitations of existing tensor computation frameworks. The *C-Product Toolbox* introduces optimized algorithms that significantly reduce computational costs while providing cross-platform compatibility.
+
+## Scientific paper related with the *C-Product Toolbox*
+
+The *C-Product Toolbox* is associated with the scientific article "***C-Product Toolbox*: A New MATLAB and Python Package for Third-Order Tensor Operations Using the Reduced C-Product**." This scientific paper has been submitted for review in a scientific journal and is currently under peer review. The numerical experiments included in this repository are explained in detail in the paper.
+
 
 ## Authors
 
