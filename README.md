@@ -3,38 +3,33 @@
 
 
 ## Description 
-### jd
 
-The *FroImPro Toolbox* is a collection of MATLAB functions that solve a wide variety of video and image processing problems. Each problem is represented as an optimization problem based on the Frobenius norm.
+### C-Product Toolbox: A Computational Package for Third-Order Tensor Operations
 
-The *FroImPro Toolbox* toolbox addresses the following applications of image and video processing:
+The *C-Product Toolbox* is a computational package designed to facilitate tensor operations based on the reduced *c*-product, a variation of the standard *c*-product that improves computational efficiency. This toolbox is available for both MATLAB and Python, making it accessible to researchers and practitioners in scientific computing, signal processing, and image processing.
 
-* **Application 1:** Construction of filters to remove noise from an image.
-  
-* **Application 2:** Non-negative matrix factorization applied to image reconstruction.
-  
-* **Application 3:** Low-rank matrix approximation using the BRP algorithm and its application to image compression and denoising.
-  
-* **Application 4:** GoDec algorithm applied to variation detection in an image dataset.
-  
-* **Application 5:** K-SVD algorithm applied to image reconstruction with missing pixels.
-  
-This repository contains the following information:
+In general, tensor algebra extends the concepts of matrices to higher dimensions, allowing for advanced mathematical operations in multidimensional spaces. Among different tensor multiplication frameworks, the *t*-product and *c*-product have gained attention due to their flexibility and efficiency in various applications. While the *t*-product benefits from the Fast Fourier Transform, it requires intermediate complex arithmetic, increasing computational cost. On the other hand, the *c*-product, which relies on the Discrete Cosine Transform, operates entirely with real arithmetic, offering advantages in memory usage and execution speed.
 
-* Folder *mlbtx_file* contains the file with extension *.mlbtx* for installation of *FroImPro Toolbox* in MATLAB. 
+The *C-Product Toolbox* is specifically built around the reduced *c*-product, which optimizes tensor computations by reducing the required arithmetic operations and improving memory efficiency. Unlike existing packages in the literature, which default to the *t*-product, this new toolbox provides a dedicated and optimized implementation for *c*-product-based tensor operations.
 
-* Folder *matlab_functions* contains the MATLAB code for the functions of the *FroImPro Toolbox*.
+### Key Features and Advantages
 
-* Folder *examples*  contains examples of each of the applications described above
+* **Efficient Computation**: The reduced *c*-product minimizes computational complexity by using real arithmetic, leading to lower memory usage and faster execution compared to traditional tensor multiplication methods.
+* **Extended Tensor Operations**: The toolbox includes various functions not available in existing tensor computation packages, such as tensor pseudoinverse, the drazin tensor inverse, and the least squares solutions for tensor equations.
+* **Multi-Platform Support**: While initially developed for MATLAB, the *C-Product Toolbox* has also been fully implemented in Python, utilizing the *NumPy* and *SciPy* libraries, ensuring broader accessibility.
+* **Applications in Image and Signal Processing**: The toolbox has been tested in various applications, including video denoising, showcasing its practical advantages over traditional tensor computation methods.
 
-* File *Manual_FroImPro_Español.pdf*  provides a manual in Spanish explaining how to use every function of the *FroImPro Toolbox*.
+### Why Use the C-Product Toolbox?
 
-The *FroImPro Toolbox* was presented at the *47th International Conference on Telecommunications and Signal Processing* through the scientific paper *FroImPro: A MATLAB Toolbox for Image Processing Based on the Frobenius Norm*. The link of the paper is https://doi.org/10.1109/TSP63128.2024.10605921
+The primary motivation behind this toolbox is to address the limitations of existing tensor computation frameworks. The *C-Product Toolbox* introduces optimized algorithms that significantly reduce computational costs while providing cross-platform compatibility.
 
 ## Authors
 
-   1. Pablo Soto-Quiros        (https://www.tec.ac.cr/juan-pablo-soto-quiros)   
-   2. Jeffry Chavarría-Molina  (https://www.tec.ac.cr/jeffrey-chavarria-molina) 
-   3. Juan José Fallas-Monge   (https://www.tec.ac.cr/juan-jose-fallas-monge)
+   1. Pablo Soto-Quiros        (email: jusoto@tec.ac.cr)   
+   2. Samuel Valverde-Sanchez  (email: jusoto@savalverde@itcr.ac.cr)   
 
 The authors are professors at the School of Mathematics of the *Instituto Tecnológico de Costa Rica* (https://www.tec.ac.cr/)
+
+## Acknowledgments
+
+*C-ProductToolbox* was developed by professors Pablo Soto-Quiros and Samuel Valverde-Sanchez in the GLRTA project (#1440054) from January 2024 to December 2025. The GLRTA project is affiliated with the *Vicerrectoría de Investigación* at the *Instituto Tecnológico de Costa Rica*.
