@@ -1,5 +1,5 @@
 
-<p align="center"><img  src="https://github.com/jusotoTEC/c-product-toolbox/blob/main/img/logo.png"></p>
+<p align="center"><img  src="https://github.com/jusotoTEC/c-product-toolbox/blob/main/img/logo.png" e="width: 75%; height: 75%;"></p>
 
 
 ## Description 
