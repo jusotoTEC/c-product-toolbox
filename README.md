@@ -12,6 +12,10 @@ In general, tensor algebra extends the concepts of matrices to higher dimensions
 
 The *C-Product Toolbox* is specifically built around the reduced *c*-product, which optimizes tensor computations by reducing the required arithmetic operations and improving memory efficiency. Unlike existing packages in the literature, which default to the *t*-product, this new toolbox provides a dedicated and optimized implementation for *c*-product-based tensor operations.
 
+
+<p align="center"><img  src="https://github.com/jusotoTEC/c-product-toolbox/blob/main/img/img1.png" e="width: 75%; height: 75%;"></p>
+
+
 ### Key Features and Advantages
 
 * **Efficient Computation**: The reduced *c*-product minimizes computational complexity by using real arithmetic, leading to lower memory usage and faster execution compared to traditional tensor multiplication methods.
