@@ -1,1 +1,1 @@
-The numerical examples in this folder were developed for the scientific article "***C-Product Toolbox*: A new MATLAB and Python package for third-order tensor operations using the reduced c-product**," which has been submitted for review in a scientific journal.
+The numerical experiments in this folder were developed for the scientific article "***C-Product Toolbox*: A new MATLAB and Python package for third-order tensor operations using the reduced c-product**," which has been submitted for review in a scientific journal.
