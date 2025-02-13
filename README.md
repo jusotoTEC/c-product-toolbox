@@ -26,7 +26,7 @@ The primary motivation behind this toolbox is to address the limitations of exis
 ## Authors
 
    1. Pablo Soto-Quiros        (email: jusoto@tec.ac.cr)   
-   2. Samuel Valverde-Sanchez  (email: jusoto@savalverde@itcr.ac.cr)   
+   2. Samuel Valverde-Sanchez  (email: savalverde@itcr.ac.cr)   
 
 The authors are professors at the School of Mathematics of the *Instituto Tecnológico de Costa Rica* (https://www.tec.ac.cr/)
 
