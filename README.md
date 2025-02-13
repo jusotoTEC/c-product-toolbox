@@ -1,0 +1,39 @@
+
+<p align="center"><img  src="https://github.com/jusotoTEC/froimpro_toolbox/blob/main/img/logo.png"></p>
+
+
+## Description 
+
+The *FroImPro Toolbox* is a collection of MATLAB functions that solve a wide variety of video and image processing problems. Each problem is represented as an optimization problem based on the Frobenius norm.
+
+The *FroImPro Toolbox* toolbox addresses the following applications of image and video processing:
+
+* **Application 1:** Construction of filters to remove noise from an image.
+  
+* **Application 2:** Non-negative matrix factorization applied to image reconstruction.
+  
+* **Application 3:** Low-rank matrix approximation using the BRP algorithm and its application to image compression and denoising.
+  
+* **Application 4:** GoDec algorithm applied to variation detection in an image dataset.
+  
+* **Application 5:** K-SVD algorithm applied to image reconstruction with missing pixels.
+  
+This repository contains the following information:
+
+* Folder *mlbtx_file* contains the file with extension *.mlbtx* for installation of *FroImPro Toolbox* in MATLAB. 
+
+* Folder *matlab_functions* contains the MATLAB code for the functions of the *FroImPro Toolbox*.
+
+* Folder *examples*  contains examples of each of the applications described above
+
+* File *Manual_FroImPro_Español.pdf*  provides a manual in Spanish explaining how to use every function of the *FroImPro Toolbox*.
+
+The *FroImPro Toolbox* was presented at the *47th International Conference on Telecommunications and Signal Processing* through the scientific paper *FroImPro: A MATLAB Toolbox for Image Processing Based on the Frobenius Norm*. The link of the paper is https://doi.org/10.1109/TSP63128.2024.10605921
+
+## Authors
+
+   1. Pablo Soto-Quiros        (https://www.tec.ac.cr/juan-pablo-soto-quiros)   
+   2. Jeffry Chavarría-Molina  (https://www.tec.ac.cr/jeffrey-chavarria-molina) 
+   3. Juan José Fallas-Monge   (https://www.tec.ac.cr/juan-jose-fallas-monge)
+
+The authors are professors at the School of Mathematics of the *Instituto Tecnológico de Costa Rica* (https://www.tec.ac.cr/)
