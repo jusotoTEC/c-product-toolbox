@@ -41,4 +41,4 @@ The authors are professors at the School of Mathematics of the *Instituto Tecnol
 
 ## Acknowledgments
 
-*C-ProductToolbox* was developed by professors Pablo Soto-Quiros and Samuel Valverde-Sanchez in the GLRTA project (#1440054) from January 2024 to December 2025. The GLRTA project is affiliated with the *Vicerrectoría de Investigación* at the *Instituto Tecnológico de Costa Rica*.
+*C-Product Toolbox* was developed by professors Pablo Soto-Quiros and Samuel Valverde-Sanchez in the GLRTA project (#1440054) from January 2024 to December 2025. The GLRTA project is affiliated with the *Vicerrectoría de Investigación* at the *Instituto Tecnológico de Costa Rica*.
