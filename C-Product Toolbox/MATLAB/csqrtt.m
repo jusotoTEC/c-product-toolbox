@@ -3,10 +3,8 @@ function X=csqrtt(A)
     %       Description: Computes the principal square root of a
     %                    third-order tensor under the reduced c-product
     %   Syntax Function: X = csqrtt(A)
-    %            Inputs: A = tensor of dimension  m x m x p with real
-    %                        entries
-    %            Output: X = square root of A using the reduced c-product, 
-    %                        with dimensions m x m x p
+    %            Inputs: A = tensor of dimension  m x m x p 
+    %            Output: X = tensor of dimension  m x m x p
     %
     %        References: Pablo Soto-Quiros, C-product toolbox, 
     %                    Instituto Tecnológico de Costa Rica,

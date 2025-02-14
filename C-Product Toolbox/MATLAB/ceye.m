@@ -1,9 +1,10 @@
 function I=ceye(n,p)
 
-    %       Description: Computes the indentity tensor under the reduced c-product
+    %       Description: Computes the identity tensor under the reduced c-product
     %   Syntax Function: I = ceye(n,p)
-    %            Inputs: A = tensor of dimension  m x n x p
-    %            Output: trank = tubal rank constant of tensor A
+    %            Inputs: n = positive integer
+    %                    p = positive integer 
+    %            Output: I = identity tensor of dimension n x n x p
     %
     %        References: Pablo Soto-Quiros, C-product toolbox, 
     %                    Instituto Tecnológico de Costa Rica,
