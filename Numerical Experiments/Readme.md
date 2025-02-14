@@ -1,0 +1,1 @@
+The numerical experiments in this folder were developed for the scientific article "***C-Product Toolbox*:  A computational package for third-order tensor operations based on the reduced c-product**," which has been submitted for review in a scientific journal.
