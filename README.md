@@ -29,7 +29,7 @@ The primary motivation behind this toolbox is to address the limitations of exis
 
 ### Scientific paper related with the *C-Product Toolbox*
 
-The *C-Product Toolbox* is associated with the scientific article "***C-Product Toolbox*: A New MATLAB and Python Package for Third-Order Tensor Operations Using the Reduced C-Product**." This scientific paper has been submitted for review in a scientific journal and is currently under peer review. The numerical experiments included in this repository are explained in detail in the paper.
+The *C-Product Toolbox* is associated with the scientific article "***C-Product Toolbox*:  A computational package for third-order tensor operations based on the reduced c-product**." This scientific paper has been submitted for review in a scientific journal and is currently under peer review. The numerical experiments included in this repository are explained in detail in the paper.
 
 
 ## Authors
