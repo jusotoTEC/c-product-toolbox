@@ -2,10 +2,8 @@ function X=cpinv(A)
 
     %       Description: Computes the tensor pseudoinverse using the reduced c-product
     %   Syntax Function: X = cpinv(A)
-    %            Inputs: A = tensor of dimension  m x n x p with real
-    %                        entries
-    %            Output: X = tensor pseudoinverse of A using the reduced c-product, 
-    %                        with dimensions n x m x p
+    %            Inputs: A = tensor of dimension  m x n x p
+    %            Output: X = tensor of dimension  n x m x p
     %
     %        References: Pablo Soto-Quiros, C-product toolbox, 
     %                    Instituto Tecnológico de Costa Rica,

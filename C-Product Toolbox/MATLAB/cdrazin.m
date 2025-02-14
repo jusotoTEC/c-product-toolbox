@@ -4,9 +4,8 @@ function [X,t]=cdrazin(A)
     %                    of a third-order tensor under the c-product
     %   Syntax Function: [X,t] = cdrazin(A)
     %            Inputs: A = tensor of dimension  m x m x p 
-    %            Output: X = tensor Drazin inverse of A using the c-product, 
-    %                        with dimensions m x m x p
-    %                    t = multi-index vector of dimension p       
+    %            Output: X = tensor of dimension  m x m x p
+    %                    t = vector of dimension p       
     %
     %        References: Pablo Soto-Quiros, C-product toolbox, 
     %                    Instituto Tecnológico de Costa Rica,

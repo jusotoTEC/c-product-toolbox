@@ -4,7 +4,7 @@ function crank=ctubalrank(A)
     %                    using the c-SVD method
     % Sintaxis Function: trank = ctubalrank(A)
     %            Inputs:   A   = tensor of dimension  m x n x p
-    %            Output: crank = tubal rank constant of tensor A
+    %            Output: crank = non-negative integer
     %
     %        References: Pablo Soto-Quiros, C-product toolbox, 
     %                    Instituto Tecnológico de Costa Rica,

@@ -2,7 +2,7 @@ function X=clsq(A,B,C)
 
     %       Description: Computes solution of the tensor least squares 
     %                    problem under the reduced c-product
-    % Sintaxis Function: X=tlsqr(A,B,C)
+    % Sintaxis Function: X = clsq(A,B,C)
     %            Inputs: A = tensor of dimension  m x n x p
     %                    B = tensor of dimension  m x r x p
     %                    C = tensor of dimension  s x n x p

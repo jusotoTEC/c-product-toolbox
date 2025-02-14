@@ -8,7 +8,7 @@ function z=cnorm(A,opt)
     %                          2) 'spec': the spectral norm
     %                          3) 'nuc' : the nuclear norm
     %
-    %            Output: z is a non-negative number
+    %            Output: z = non-negative number
     %
     %        References: Pablo Soto-Quiros, C-product toolbox, 
     %                    Instituto Tecnológico de Costa Rica,
