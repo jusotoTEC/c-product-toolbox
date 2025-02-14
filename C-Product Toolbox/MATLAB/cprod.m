@@ -1,6 +1,6 @@
 function C=cprod(A,B)
 
-    %       Description: Computes the c-product between two tensors
+    %       Description: Computes the recued c-product between two tensors
     %   Syntax Function: C = cprod(A,B)
     %            Inputs: A = tensor of dimension  m1 x n1 x p1
     %                    B = tensor of dimension  m2 x n2 x p2
