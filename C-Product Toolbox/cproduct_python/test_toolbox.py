@@ -7,11 +7,7 @@ Status: Paper under submission
 """
 
 import numpy as np
-
-from cproduct import (
-    cprod, cinprod, ceye, ctransp, csvd, cqr, csqrtt, ctubalrank, cmultirank,
-    cinv, cpinv, cdrazin, cnorm, clowrank, csvt, clsq
-)
+import cproduct as cp
 
 def test_toolbox():
     
@@ -48,7 +44,7 @@ def test_toolbox():
         B[:,:,1] = [[-1, -3], [0, 2]]
         B[:,:,2] = [[1, 2], [-1, -1]]
         print("Result:")
-        C = cprod(A, B)
+        C = cp.cprod(A, B)
         print('C[:,:,0]=')
         print(C[:,:,0])
         print('C[:,:,1]=')
@@ -67,13 +63,13 @@ def test_toolbox():
         B[:,:,1] = [[-1, -3], [0, 2]]
         B[:,:,2] = [[1, 2], [-1, -1]]
         print("Result:")
-        c = cinprod(A, B)
+        c = cp.cinprod(A, B)
         print(c)
 
     elif opt == 3:
         print("Example 3: 'ceye' command")
         print("Result:")
-        I = ceye(2, 2)
+        I = cp.ceye(2, 2)
         print('I[:,:,0]=')
         print(I[:,:,0])
         print('I[:,:,1]=')
@@ -85,7 +81,7 @@ def test_toolbox():
         A[:,:,0] = [[1, -1, -2], [-2, 3, 1]]
         A[:,:,1] = [[-2, 3, 1], [1, 0, -1]]
         print("Result:")
-        C = ctransp(A)
+        C = cp.ctransp(A)
         print('C[:,:,0]=')
         print(C[:,:,0])
         print('C[:,:,1]=')
@@ -97,7 +93,7 @@ def test_toolbox():
         A[:,:,0] = [[1, -1, -2], [-2, 3, 1]]
         A[:,:,1] = [[-2, 3, 1], [1, 0, -1]]
         print("Result:")
-        U, S, V = csvd(A)
+        U, S, V = cp.csvd(A)
         print('U[:,:,0]=')
         print(U[:,:,0])
         print('U[:,:,1]=')
@@ -116,7 +112,7 @@ def test_toolbox():
         A = np.zeros((2, 3, 2))
         A[:, :, 0] = np.array([[1, -1, -2], [-2, 3, 1]])
         A[:, :, 1] = np.array([[-2, 3, 1], [1, 0, -1]])
-        Q, R = cqr(A)
+        Q, R = cp.cqr(A)
         print("Result:")
         print('Q[:,:,0]=')
         print(Q[:,:,0])
@@ -133,7 +129,7 @@ def test_toolbox():
         A[:, :, 0] = np.array([[6.989, 1.711], [1.711, 7.855]])
         A[:, :, 1] = np.array([[-4.222, 0.676], [0.676, 3.802]])
         A[:, :, 2] = np.array([[4.161, 4.540], [4.540, 2.198]])
-        B = csqrtt(A)
+        B = cp.csqrtt(A)
         print("Result:")        
         print('B[:,:,0]=')
         print(B[:,:,0])
@@ -152,8 +148,8 @@ def test_toolbox():
         C[:,:,0] = [-2, -1, 2]
         C[:,:,1] = [-2, 2, 0]
         C[:,:,2] = [2, -2, 0]                
-        A = cprod(B, C)
-        r = ctubalrank(A)        
+        A = cp.cprod(B, C)
+        r = cp.ctubalrank(A)        
         print("Result:")        
         print(r)
     
@@ -167,8 +163,8 @@ def test_toolbox():
         C[:,:,0] = [-2, -1, 2]
         C[:,:,1] = [-2, 2, 0]
         C[:,:,2] = [2, -2, 0]                
-        A = cprod(B, C)
-        t = cmultirank(A)                
+        A = cp.cprod(B, C)
+        t = cp.cmultirank(A)                
         print("Result:")    
         print(t)       
 
@@ -177,7 +173,7 @@ def test_toolbox():
         A = np.zeros((2, 2, 2))
         A[:,:,0] = [[1, -1], [0, -1]]
         A[:,:,1] = [[0, 2], [-1, -2]]        
-        B = cinv(A)        
+        B = cp.cinv(A)        
         print("Result:")
         print('B[:,:,0]=')
         print(B[:,:,0])
@@ -190,7 +186,7 @@ def test_toolbox():
         A[:,:,0] = [[1, -1, -2], [-2, 3, 1]]
         A[:,:,1] = [[-2, 3, 1], [1, 0, -1]]        
         print("Result:")
-        B = cpinv(A)
+        B = cp.cpinv(A)
         print("Result:")
         print('B[:,:,0]=')
         print(B[:,:,0])
@@ -203,7 +199,7 @@ def test_toolbox():
         A[:,:,0] = [[4, -4, -1], [-7, -8, 7], [-1, -2, 0]]
         A[:,:,1] = [[-2, 2, 1], [4, 4, -4], [0, 1, 0]]
         A[:,:,2] = [[-1, 2, 0], [3, 4, -2], [1, 1, 0]]                
-        X, t = cdrazin(A)
+        X, t = cp.cdrazin(A)
         print("Result:")
         print('X[:,:,0]=')
         print(X[:,:,0])
@@ -218,9 +214,9 @@ def test_toolbox():
         A = np.zeros((2, 3, 2))
         A[:, :, 0] = np.array([[1, -1, -2], [-2, 3, 1]])
         A[:, :, 1] = np.array([[-2, 3, 1], [1, 0, -1]])            
-        n1 = cnorm(A)
-        n2 = cnorm(A, opt='spec')
-        n3 = cnorm(A, opt='nuc')
+        n1 = cp.cnorm(A)
+        n2 = cp.cnorm(A, opt='spec')
+        n3 = cp.cnorm(A, opt='nuc')
         print("Result:")
         print(f'Frobenius norm = {n1}')
         print(f'Spectral norm = {n2}')
@@ -232,7 +228,7 @@ def test_toolbox():
         A[:,:,0] = [[1, -1, -2], [-2, 3, 1]]
         A[:,:,1] = [[-2, 3, 1], [1, 0, -1]]
         r = 1
-        Ar = clowrank(A, r)
+        Ar = cp.clowrank(A, r)
         print("Result:")
         print('Ar[:,:,0]=')
         print(Ar[:,:,0])
@@ -245,7 +241,7 @@ def test_toolbox():
         A[:, :, 0] = np.array([[1, -1, -2], [-2, 3, 1]])
         A[:, :, 1] = np.array([[-2, 3, 1], [1, 0, -1]])
         t = 0.5        
-        X = csvt(A, t)
+        X = cp.csvt(A, t)
         print("Result:")        
         print('X[:,:,0]=')
         print(X[:,:,0])
@@ -264,7 +260,7 @@ def test_toolbox():
         C[:,:,0] = [[0, -2, 1]]
         C[:,:,1] = [[1, -1, 1]]
         print("Result:")
-        X = clsq(A, B, C)
+        X = cp.clsq(A, B, C)
         print('X[:,:,0]=')
         print(X[:,:,0])
         print('X[:,:,1]=')
