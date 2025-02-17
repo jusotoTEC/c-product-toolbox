@@ -11,8 +11,8 @@ function numerical_experiment_2()
     
     disp('**** Numerical experiment 2: Execution time comparison of the proposed C-Product Toolbox and the Tensor-Tensor Product Toolbox 2.0 ****')    
     
-    %The variable 'opt allows selecting which functions to compare.
-    %Alternatives for variable 'opt':
+    % The variable 'opt allows selecting which functions to compare.
+    % Alternatives for variable 'opt':
     %   opt = 1 : cprod vrs tprod
     %   opt = 2 : csvd vrs tsvd
     %   opt = 3 : cqr vrs tqr
@@ -21,6 +21,12 @@ function numerical_experiment_2()
     %   opt = 6 : cnorm( . ,'spec') vrs tsn
     %   opt = 7 : ctubalrank vrs tubalrank
     %   opt = 8 : csvt vrs prox_tnn
+    
+    % The functions tprod, tsvd, tqr, tinv, tnn, tsn, tubalrank, and prox_tnn  
+    % are from the "Tensor-Tensor Product Toolbox 2.0," available at:  
+    % https://github.com/canyilu/Tensor-tensor-product-toolbox  
+    % Please visit the link and download these functions to run this script.  
+    
     
     %Vatiable 'opt'
     opt = 1;
