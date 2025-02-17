@@ -6,7 +6,7 @@
 
 ### *C-Product Toolbox*: A Computational Package for Third-Order Tensor Operations
 
-The *C-Product Toolbox* is a computational package designed to facilitate tensor operations based on the reduced *c*-product, a variation of the standard *c*-product that improves computational efficiency. This toolbox is available for both MATLAB and Python, making it accessible to researchers and practitioners in scientific computing, signal processing, and image processing.
+The *C-Product Toolbox* is a computational package designed to facilitate third-order tensor operations based on the reduced *c*-product, a variation of the standard *c*-product that improves computational efficiency. This toolbox is available for both MATLAB and Python, making it accessible to researchers and practitioners in scientific computing, signal processing, and image processing.
 
 In general, tensor algebra extends the concepts of matrices to higher dimensions, allowing for advanced mathematical operations in multidimensional spaces. Among different tensor multiplication frameworks, the *t*-product and *c*-product have gained attention due to their flexibility and efficiency in various applications. While the *t*-product benefits from the Fast Fourier Transform, it requires intermediate complex arithmetic, increasing computational cost. On the other hand, the *c*-product, which relies on the Discrete Cosine Transform, operates entirely with real arithmetic, offering advantages in memory usage and execution speed.
 
