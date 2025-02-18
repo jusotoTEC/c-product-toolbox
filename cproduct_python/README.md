@@ -1,12 +1,5 @@
 # cproduct
 
-`cproduct` is a Python package that provides advanced functions for tensor manipulation and numerical processing. It includes tools for efficient computations using `numpy` and `scipy`.
+`cproduct` is a Python package that implements the functionality of the *C-Product Toolbox*. The *C-Product Toolbox* is a computational framework designed for efficient third-order tensor operations using the reduced c-product. It optimizes memory usage and execution time, making it ideal for applications in scientific computing, image processing, and signal processing. The package includes tools that leverage the power of  `numpy` and `scipy` for fast and efficient computations..
 
-## Installation
 
-Clone the repository and use `pip` to install the package in editable mode:
-
-```sh
-git https://github.com/jusotoTEC/c-product-toolbox.git
-cd C-Product_Toolbox/cproduct_python/cproduct
-pip install -e .
