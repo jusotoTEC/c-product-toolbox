@@ -37,7 +37,7 @@ The *C-Product Toolbox* is associated with the scientific article "***C-Product 
 This project is developed by researchers from the Instituto Tecnológico de Costa Rica:
 
 * **Pablo Soto-Quiros** (jusoto@tec.ac.cr) – Professor at the School of Mathematics and the School of Computer Engineering.
-* **Samuel Valverde-Sánchez** (savalverde@itcr.ac.cr) – Professor at the School of Mathematics.
+* **Samuel Valverde-Sanchez** (savalverde@itcr.ac.cr) – Professor at the School of Mathematics.
 * **Luis Chavarría-Zamora** (lachavarria@itcr.ac.cr) – Professor at the School of Computer Engineering.
 
 ## Version History 
@@ -51,6 +51,13 @@ Version 1.0 of the *C-Product Toolbox* was developed in February 2025. This vers
 * Creation of user manuals for the *C-Product Toolbox* in both English and Spanish.
 * Inclusion of the numerical experiments presented in the paper"***C-Product Toolbox*:  A computational package for third-order tensor operations based on the reduced c-product**."
 
+## Citation
+
+Para citar el *C-Product Toolbox* utilice la siguiente referencia
+
+```
+@article{your_citation_key, author = {Author Name and Co-Author Name}, title = {Title of Your Paper}, journal = {Journal Name}, year = {2025}, volume = {X}, number = {Y}, pages = {ZZZ-ZZZ}, doi = {10.xxxx/xxxxx} }
+```
 
 ## Acknowledgments
 
