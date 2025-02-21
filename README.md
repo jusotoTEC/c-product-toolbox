@@ -34,7 +34,7 @@ The *C-Product Toolbox* is associated with the scientific article "***C-Product 
 
 ## Authors
 
-This project is developed by researchers from the Instituto Tecnológico de Costa Rica:
+This project is developed by researchers from the *Instituto Tecnológico de Costa Rica*, Central Campus, in Cartago, Costa Rica:
 
 * **Pablo Soto-Quiros** (jusoto@tec.ac.cr) – Professor at the School of Mathematics and the School of Computer Engineering.
 * **Samuel Valverde-Sanchez** (savalverde@itcr.ac.cr) – Professor at the School of Mathematics.
