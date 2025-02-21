@@ -34,13 +34,37 @@ The *C-Product Toolbox* is associated with the scientific article "***C-Product 
 
 ## Authors
 
-   1. Pablo Soto-Quiros        (email: jusoto@tec.ac.cr)   
-   2. Samuel Valverde-Sanchez  (email: savalverde@itcr.ac.cr)
-   3. Luis Chavarría-Zamora    (email: lachavarria@itcr.ac.cr)
+This project is developed by researchers from the *Instituto Tecnológico de Costa Rica*, Central Campus, in Cartago, Costa Rica:
 
-* Pablo Soto Quirós is a professor at both the School of Mathematics and the School of Computer Engineering at the Instituto Tecnológico de Costa Rica.
-* Samuel Valverde-Sánchez is a professor at the School of Mathematics at the Instituto Tecnológico de Costa Rica.
-* Luis Chavarría-Zamora is a professor at the School of Computer Engineering at the Instituto Tecnológico de Costa Rica.
+* **Pablo Soto-Quiros** (jusoto@tec.ac.cr) – Professor at the School of Mathematics and the School of Computer Engineering.
+* **Samuel Valverde-Sanchez** (savalverde@itcr.ac.cr) – Professor at the School of Mathematics.
+* **Luis Chavarria-Zamora** (lachavarria@itcr.ac.cr) – Professor at the School of Computer Engineering.
+
+## Version History 
+
+### Version 1.0
+
+Version 1.0 of the *C-Product Toolbox* was developed in February 2025. This version includes the following:
+
+* Computational implementation in MATLAB and Python of the functions `cprod`, `cinprod`, `ceye`, `ctransp`, `csvd`, `cqr`, `csqrtt`, `ctubalrank`, `cmultirank`, `cinv`, `cpinv`, `cdrazin`, `cnorm`, `clowrank`, `csvt`, and `clsq`.
+* Development of the `test_toolbox` file for both MATLAB and Python, which serves as a test suite for the functions in the *C-Product Toolbox*.
+* Creation of user manuals for the *C-Product Toolbox* in both English and Spanish.
+* Inclusion of the numerical experiments presented in the paper"***C-Product Toolbox*:  A computational package for third-order tensor operations based on the reduced c-product**."
+
+## Citation
+
+To cite the *C-Product Toolbox*, please use the following reference.
+
+```
+@manual{soto2025cproduct,
+  author       = {Soto-Quiros, Pablo and Valverde-Sanchez, Samuel and Chavarria-Zamora, Luis},
+  title        = {C-Product Toolbox - Version 1.0},
+  organization = {Instituto Tecnológico de Costa Rica},
+  month        = {February},
+  year         = {2025},
+  note         = {\url{https://github.com/jusotoTEC/c-product-toolbox}}
+}  
+```
 
 ## Acknowledgments
 
