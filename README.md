@@ -53,7 +53,7 @@ Version 1.0 of the *C-Product Toolbox* was developed in February 2025. This vers
 
 ## Citation
 
-Para citar el *C-Product Toolbox* utilice la siguiente referencia
+To cite the *C-Product Toolbox*, please use the following reference.
 
 ```
 @manual{soto2025cproduct,
