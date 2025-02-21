@@ -38,7 +38,7 @@ This project is developed by researchers from the Instituto Tecnológico de Cost
 
 * **Pablo Soto-Quiros** (jusoto@tec.ac.cr) – Professor at the School of Mathematics and the School of Computer Engineering.
 * **Samuel Valverde-Sanchez** (savalverde@itcr.ac.cr) – Professor at the School of Mathematics.
-* **Luis Chavarría-Zamora** (lachavarria@itcr.ac.cr) – Professor at the School of Computer Engineering.
+* **Luis Chavarria-Zamora** (lachavarria@itcr.ac.cr) – Professor at the School of Computer Engineering.
 
 ## Version History 
 
@@ -56,7 +56,14 @@ Version 1.0 of the *C-Product Toolbox* was developed in February 2025. This vers
 Para citar el *C-Product Toolbox* utilice la siguiente referencia
 
 ```
-@article{your_citation_key, author = {Author Name and Co-Author Name}, title = {Title of Your Paper}, journal = {Journal Name}, year = {2025}, volume = {X}, number = {Y}, pages = {ZZZ-ZZZ}, doi = {10.xxxx/xxxxx} }
+@manual{soto2025cproduct,
+  author       = {Soto-Quiros, Pablo and Valverde-Sanchez, Samuel and Chavarria-Zamora, Luis},
+  title        = {C-Product Toolbox - Version 1.0},
+  organization = {Instituto Tecnológico de Costa Rica},
+  month        = {February},
+  year         = {2025},
+  note         = {\url{https://github.com/jusotoTEC/c-product-toolbox}}
+}  
 ```
 
 ## Acknowledgments
