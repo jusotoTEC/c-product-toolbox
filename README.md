@@ -35,9 +35,12 @@ The *C-Product Toolbox* is associated with the scientific article "***C-Product 
 ## Authors
 
    1. Pablo Soto-Quiros        (email: jusoto@tec.ac.cr)   
-   2. Samuel Valverde-Sanchez  (email: savalverde@itcr.ac.cr)   
+   2. Samuel Valverde-Sanchez  (email: savalverde@itcr.ac.cr)
+   3. Luis Chavarría-Zamora    (email: lachavarria@itcr.ac.cr)
 
-The authors are professors at the School of Mathematics of the *Instituto Tecnológico de Costa Rica* (https://www.tec.ac.cr/)
+* Pablo Soto Quirós is a professor at both the School of Mathematics and the School of Computer Engineering at the Instituto Tecnológico de Costa Rica.
+* Samuel Valverde-Sánchez is a professor at the School of Mathematics at the Instituto Tecnológico de Costa Rica.
+* Luis Chavarría-Zamora is a professor at the School of Computer Engineering at the Instituto Tecnológico de Costa Rica.
 
 ## Acknowledgments
 
