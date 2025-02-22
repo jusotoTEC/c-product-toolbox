@@ -2,8 +2,8 @@ function numerical_experiment_2()
 
     % Numerical Experiment 2
 
-    % Paper: C-Product Toolbox: A new MATLAB toolbox for third-order tensor operations using the reduced c-product
-    % Authors: Soto-Quiros, Pablo and Valverde-Sanchez, Samuel
+    % Paper: C-Product Toolbox: A computational package for third-order tensor operations based on the reduced c-product
+    % Authors: Soto-Quiros, Pablo, Valverde-Sanchez, Samuel and Chavarria-Zamora, Luis
     % Year: 2025
     % Status paper: Paper under submission
 
