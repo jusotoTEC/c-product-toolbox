@@ -1,4 +1,10 @@
- % Example of applying the C-Product Toolbox functions in MATLAB
+% Example of applying the C-Product Toolbox functions in MATLAB
+%
+%        References: C-product toolbox
+%                    https://github.com/jusotoTEC/c-product-toolbox
+%
+%   Code written by: Pablo Soto-Quiros (jusoto@tec.ac.cr) and
+%                    Samuel Valverde-Sanchez (savalverde@itcr.ac.cr)
 
  A = rand(10,5,3);         % Third-order tensor generated ...
                            % ... randomly with uniform distribution

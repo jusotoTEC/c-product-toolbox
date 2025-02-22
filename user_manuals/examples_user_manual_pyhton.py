@@ -1,9 +1,12 @@
-'''References:
-    Pablo Soto-Quiros, C-product toolbox, 
-    Instituto Tecnológico de Costa Rica,
-    https://github.com/jusotoTEC/c-product-toolbox
-    
-Code written by: Pablo Soto-Quiros (jusoto8@tec.ac.cr)''' 
+'''
+Example of applying the C-Product Toolbox functions in MATLAB
+
+        References: C-product toolbox
+                    https://github.com/jusotoTEC/c-product-toolbox    
+
+   Code written by: Pablo Soto-Quiros (jusoto@tec.ac.cr) and
+                    Luis Chavarria-Zamora (lachavarria@itcr.ac.cr)
+'''                   
 
 # Example application of the C-Product Toolbox functions in Python
 
