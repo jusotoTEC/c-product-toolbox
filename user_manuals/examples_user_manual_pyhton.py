@@ -1,5 +1,5 @@
 '''
-Example of applying the C-Product Toolbox functions in MATLAB
+Example of applying the C-Product Toolbox functions in Python
 
         References: C-product toolbox
                     https://github.com/jusotoTEC/c-product-toolbox    
