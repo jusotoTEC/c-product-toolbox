@@ -49,7 +49,7 @@ Version 1.0 of the *C-Product Toolbox* was developed in February 2025. This vers
 * Computational implementation in MATLAB and Python of the functions `cprod`, `cinprod`, `ceye`, `ctransp`, `csvd`, `cqr`, `csqrtt`, `ctubalrank`, `cmultirank`, `cinv`, `cpinv`, `cdrazin`, `cnorm`, `clowrank`, `csvt`, and `clsq`.
 * Development of the `test_toolbox` file for both MATLAB and Python, which serves as a test suite for the functions in the *C-Product Toolbox*.
 * Creation of user manuals for the *C-Product Toolbox* in both English and Spanish.
-* Inclusion of the numerical experiments presented in the paper"***C-Product Toolbox*:  A computational package for third-order tensor operations based on the reduced c-product**."
+* Inclusion of the numerical experiments presented in the paper" ***C-Product Toolbox*:  A computational package for third-order tensor operations based on the reduced c-product**."
 
 ## Citation
 
