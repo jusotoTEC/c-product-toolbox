@@ -56,7 +56,7 @@ Version 1.0 of the *C-Product Toolbox* was developed in February 2025. This vers
 To cite the *C-Product Toolbox*, please use the following reference.
 
 ```
-@manual{soto2025cproduct,
+@manual{soto2025cproduct_1,
   author       = {Soto-Quiros, Pablo and Valverde-Sanchez, Samuel and Chavarria-Zamora, Luis},
   title        = {C-Product Toolbox - Version 1.0},
   organization = {Instituto Tecnológico de Costa Rica},
@@ -65,6 +65,22 @@ To cite the *C-Product Toolbox*, please use the following reference.
   note         = {\url{https://github.com/jusotoTEC/c-product-toolbox}}
 }  
 ```
+
+```
+@article{soto2025cproduct_2,
+author = {Soto-Quiros, P. and Valverde-Sanchez, S. and Chavarria-Zamora, L.},
+title = {C-Product Toolbox: A Computational Package for Third-Order Tensor Operations Based on the Reduced c-Product},
+journal = {Computational and Mathematical Methods},
+volume = {2025},
+number = {1},
+pages = {6048327},
+doi = {https://doi.org/10.1155/cmm4/6048327},
+year = {2025}
+}
+
+
+```
+
 
 ## Acknowledgments
 
