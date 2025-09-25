@@ -19,17 +19,17 @@ The *C-Product Toolbox* is specifically built around the reduced *c*-product, wh
 ### Key Features and Advantages
 
 * **Efficient Computation**: The reduced *c*-product minimizes computational complexity by using real arithmetic, leading to lower memory usage and faster execution compared to traditional tensor multiplication methods.
-* **Extended Tensor Operations**: The toolbox includes various functions not available in existing tensor computation packages, such as tensor pseudoinverse, the drazin tensor inverse, and the least squares solutions for tensor equations.
+* **Extended Tensor Operations**: The toolbox includes various functions not available in existing tensor computation packages, such as tensor pseudoinverse, the Drazin tensor inverse, and the least squares solutions for tensor equations.
 * **Multi-Platform Support**: While initially developed for MATLAB, the *C-Product Toolbox* has also been fully implemented in Python, utilizing the *NumPy* and *SciPy* libraries, ensuring broader accessibility.
 * **Applications in Image and Signal Processing**: The toolbox has been tested in various applications, including video denoising, showcasing its practical advantages over traditional tensor computation methods.
 
 ### Why Use the *C-Product Toolbox*?
 
-The primary motivation behind this toolbox is to address the limitations of existing tensor computation frameworks. The *C-Product Toolbox* introduces optimized algorithms that significantly reduce computational costs while providing cross-platform compatibility.
+This toolbox's primary motivation is to address the limitations of existing tensor computation frameworks. The *C-Product Toolbox* introduces optimized algorithms that significantly reduce computational costs while providing cross-platform compatibility.
 
-### Scientific paper related with the *C-Product Toolbox*
+### Scientific paper related to the *C-Product Toolbox*
 
-The *C-Product Toolbox* is associated with the scientific article "***C-Product Toolbox*:  A computational package for third-order tensor operations based on the reduced c-product**." This scientific paper has been submitted for review in a scientific journal and is currently under peer review. The numerical experiments included in this repository are explained in detail in the paper.
+The *C-Product Toolbox* is associated with the scientific article "***C-Product Toolbox*:  A computational package for third-order tensor operations based on the reduced c-product**." This paper was published in the journal *Computational and Mathematical Methods* (https://doi.org/10.1155/cmm4/6048327). The numerical experiments included in this repository are explained in detail in the paper.
 
 
 ## Authors
